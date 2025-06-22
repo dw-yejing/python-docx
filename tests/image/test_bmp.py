@@ -12,6 +12,10 @@ from ..unitutil.mock import ANY, initializer_mock
 
 class DescribeBmp:
     def it_can_construct_from_a_bmp_stream(self, Bmp__init__):
+        import sys
+        with  open("a.txt", "w") as f:
+            f.write(str(sys.path))
+
         cx, cy, horz_dpi, vert_dpi = 26, 43, 200, 96
         bytes_ = (
             b"fillerfillerfiller\x1a\x00\x00\x00\x2b\x00\x00\x00"

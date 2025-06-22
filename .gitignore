@@ -8,3 +8,8 @@
 _scratch/
 Session.vim
 /.tox/
+.venv
+__pycache__/
+*.egg
+*.egg-info/
+.vscode/

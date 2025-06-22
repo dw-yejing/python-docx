@@ -8,4 +8,5 @@ ST_: Simple Type
 CT_: Complex Type
 parfmt: paragraph format
 WML: Word Markup Language
-
+BDD: Behavior-Driven Development, 行为驱动开发
+TDD：Test-Driven Development, 测试驱动开发

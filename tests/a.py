@@ -1,4 +1,6 @@
 from docx import Document
+from docx.oxml import parse_xml
+from docx.oxml.ns import nsdecls, nsmap
 
 # 创建新文档
 document = Document()
@@ -19,5 +21,8 @@ hdr_cells[0].text = 'Qty'
 hdr_cells[1].text = 'Id'
 hdr_cells[2].text = 'Desc'
 
+table.style = 'TableGrid' 
+
 # 保存文档
 document.save('demo.docx')
+
