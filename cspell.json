@@ -1,0 +1,21 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "blkcntnr",
+        "hdrftr",
+        "horz",
+        "lazyproperty",
+        "nsdecls",
+        "oxml",
+        "pagebreak",
+        "parfmt",
+        "partname",
+        "simpletypes",
+        "WordprocessingML"
+    ],
+    "ignoreWords": [],
+    "import": []
+}

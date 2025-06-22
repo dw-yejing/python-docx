@@ -1,0 +1,11 @@
+oxml: open xml
+dml: drawing markup language. eg. svg
+hdrftr: header and footer
+blkcntnr: block container
+nsdecls: namespace declarations
+opc: Open Packaging Convention
+ST_: Simple Type
+CT_: Complex Type
+parfmt: paragraph format
+WML: Word Markup Language
+
